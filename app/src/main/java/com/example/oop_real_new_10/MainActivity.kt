@@ -39,20 +39,35 @@ fun main() {
 //    }
 
 
-    val student1 = Student("Ivan", "Ivanov", "228")
-    val student2 = Student("Ivan", "Ivanov", "228")
-    val (name, lastName, id) = student1   // Деструктор или деструктивная операция. Возможна только с data class или
-                                          //  переопределить в class (operator fun component1() = name, operator fun component2() = lastName
+//    val student1 = Student("Ivan", "Ivanov", "228")
+//    val student2 = Student("Ivan", "Ivanov", "228")
+//    val (name, lastName, id) = student1   // Деструктор или деструктивная операция. Возможна только с data class или
+//                                          //  переопределить в class (operator fun component1() = name, operator fun component2() = lastName
+//
+//    val student3 = student1.copy()   // возможен только c data class
+//    val student4 = student1.copy(id = "2323")
+//    println(name)
+//    println(student1)
+//    println(student2)
+//    println(student1.hashCode())
+//    println(student2.hashCode())
+//    println(student1 == student2)
+//    println(student1 === student2)
 
-    val student3 = student1.copy()   // возможен только c data class
-    val student4 = student1.copy(id = "2323")
-    println(name)
-    println(student1)
-    println(student2)
-    println(student1.hashCode())
-    println(student2.hashCode())
-    println(student1 == student2)
-    println(student1 === student2)
+//    val city = Ardesss("Phonk", "DVRST", 228)
+//    val city2 = city.copy()
+//    val (name, street, numberHouse) = city
+//    println(name + " " + street + " " + numberHouse)
+//    println(city)
+//    println(city2)
+//    println(city.hashCode())
+//    println(city2.hashCode())
+//    println(city == city2)
+//    println(city === city2)
+
+
+
+
 
 
 
